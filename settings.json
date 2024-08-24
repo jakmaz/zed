@@ -1,0 +1,46 @@
+{
+  // UI Settings
+  "theme": "One Dark",
+  "base_keymap": "JetBrains",
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "autosave": "on_focus_change",
+  "vim_mode": true,
+
+  // Scrollbar Settings
+  "scrollbar": {
+    "show": "never"
+  },
+
+  // Indentation Guides
+  "indent_guides": {
+    "enabled": true
+  },
+
+  // Copilot Assistant Settings
+  "assistant": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o"
+    },
+    "version": "2"
+  },
+
+  // Language Specific Settings
+  "languages": {
+    "TypeScript": {
+      "inlay_hints": {
+        "enabled": true,
+        "show_parameter_hints": false,
+        "show_other_hints": true,
+        "show_type_hints": true
+      }
+    }
+  },
+
+  // Telemetry Settings
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  }
+}

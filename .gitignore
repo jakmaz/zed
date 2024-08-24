@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# Don't ignore directories, but ignore their contents
+!*/
+
+# Track specific files and directories
+!keymap.json
+!settings.json
+!snippets/**
